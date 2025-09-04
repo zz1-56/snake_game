@@ -8,6 +8,7 @@ from snake_body import Body_turtle
 window = Screen()
 window.setup(800, 600)
 window.bgcolor("black")
+window.title("Snake Game")
 window.tracer(0)  # إيقاف التحديث التلقائي
 
 # إنشاء الكائنات الأساسية
